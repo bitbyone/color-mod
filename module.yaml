@@ -1,0 +1,12 @@
+product: jvm/app
+
+dependencies:
+  - "org.dom4j:dom4j:2.1.4"
+  - "com.fasterxml.jackson.core:jackson-databind:2.17.0"
+  - "com.fasterxml.jackson.module:jackson-module-kotlin:2.17.0"
+
+test-dependencies:
+  - $kotlin-test-junit5
+
+test-settings:
+  junit: junit-5
